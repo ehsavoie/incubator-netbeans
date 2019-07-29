@@ -58,8 +58,38 @@
         docRoot="jboss-app",
         java5=true
     ),
+//    @Schema2Beans(
+//        schema="../../resources/jboss-ejb3-2_1.xsd",
+//        schemaType=SchemaType.XML_SCHEMA,
+//        outputType=OutputType.TRADITIONAL_BASEBEAN,
+//        validate=true,
+//        attrProp=true,
+//        removeUnreferencedNodes=true,
+//        docRoot="enterprise-beans",
+//        java5=true
+//    ),
+//    @Schema2Beans(
+//        schema="../../resources/jboss-client_8_1.xsd",
+//        schemaType=SchemaType.XML_SCHEMA,
+//        outputType=OutputType.TRADITIONAL_BASEBEAN,
+//        validate=true,
+//        attrProp=true,
+//        removeUnreferencedNodes=true,
+//        docRoot="jboss-client",
+//        java5=true
+//    ),
+//    @Schema2Beans(
+//        schema="../../resources/jboss-app_8_1.xsd",
+//        schemaType=SchemaType.XML_SCHEMA,
+//        outputType=OutputType.TRADITIONAL_BASEBEAN,
+//        validate=true,
+//        attrProp=true,
+//        removeUnreferencedNodes=true,
+//        docRoot="jboss-app",
+//        java5=true
+//    ),
     @Schema2Beans(
-        schema="../../resources/jboss-web_7_2.xsd",
+        schema="../../resources/jboss-web_7_3.xsd",
         schemaType=SchemaType.XML_SCHEMA,
         outputType=OutputType.TRADITIONAL_BASEBEAN,
         validate=true,

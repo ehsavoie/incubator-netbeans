@@ -19,7 +19,7 @@
 
 @Multiple({
     @Schema2Beans(
-        schema="../../../resources/jboss-web_10_0.xsd",
+        schema="../../../resources/jboss-web_14_1.xsd",
         schemaType=SchemaType.XML_SCHEMA,
         outputType=OutputType.TRADITIONAL_BASEBEAN,
         validate=true,
